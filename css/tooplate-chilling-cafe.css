@@ -1,0 +1,88 @@
+body {
+  background-color: #3a4a58;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0;
+}
+
+.main {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content { background-color: #ffffff; }
+
+.tulisan-atas { color: white; }
+
+.tulisan-atas-tengah { text-align: center; }
+
+.header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+
+.tm-section-header {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+th {
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr:nth-child(odd) { background-color: #e5e8ed; }
+
+tr.tm-tr-header {
+  background-color: #c4cdd6;
+  height: 50px;
+}
+
+.tm-section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.tm-section-small {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.tm-mb-0 { margin-bottom: 0; text-align: center;}
+img { max-width: 100%; }
+figure { margin: 0; }
+
+
+hr {
+  width: 60%;
+  border: 0.5px solid #ccc;
+}
+
+
+a { transition: all 0.3s ease; }
+
